@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Para ti</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background: #111;
+  color: #fff;
+}
+
+/* Pantalla de bloqueo */
+.lock {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  background: #d63384;
+  color: white;
+  border-radius: 8px;
+}
+
+/* Carta */
+.carta {
+  display: none;
+  max-width: 700px;
+  margin: 60px auto;
+  background: #1c1c1c;
+  padding: 40px;
+  border-radius: 15px;
+  line-height: 1.7;
+}
+
+h1 {
+  text-align: center;
+  color: #ff6fa5;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="lock" id="lock">
+  <h2>🔒 Ingresa la contraseña</h2>
+  <input type="password" id="pass">
+  <button onclick="check()">Entrar</button>
+</div>
+
+<div class="carta" id="carta">
+<h1>Para ti 💌</h1>
+
+<p>
+Hola crhis, espero te encuentres muy bien, y espero así sea siempre.<br><br>
+
+Sabes? no tienes de que preocuparte, ya me vino el mes, ya puedes estar 100% tranquilo, bueno por si te preocupaba o acaso te importaba, lo malo es que me tumbó por completo y esta vez todo fue diferente, me dieron cólicos más fuertes de lo normal y me duró 11 días el sangrado, 11 días interminables de sangrado… creo que a ti te tomó menos tiempo olvidarte de mí…<br><br>
+
+Mi cumpleaños fue una basura, la pasé en el hospital, al menos es mejor que pasarla en mi casa, no?.<br><br>
+
+Espero te esté yendo bien en tus prácticas y en la universidad, siempre me estoy preguntando a todas horas qué harás, qué hiciste y qué estás haciendo ahora, te he visto conectado en varias cosas, supongo que llevas tu vida normal, tal vez hasta le diste la mínima importancia a la carta, y eso me lo contaron desde el primer día; creo que ya estás desapegado a mí totalmente, mientras yo sigo completamente amarrada a ti.<br><br>
+
+Dime, aún te gusto? o solo yo estoy enamorada?, me encantaría gustarte solo un poco, me siento como cuando los arlequines tratan de llamar la atención del rey, pero el rey no se inmuta…<br><br>
+
+Recuerdas recientemente que nos vimos? qué mágico sentí ese momento, sabes por qué? porque te extrañaba, extrañaba abrazarte y poner mi cara en tu pecho y hombro, extrañaba tanto que me dieras pequeños besos y yo viceversa, extrañaba tu aroma, tu voz, tu cara y todo de ti…<br><br>
+
+Pero sentí más bonito cuando después de todo, te dormiste a mi lado, no pude evitar tomar una foto, no perversa, no con malicia, porque solo salen mis piernas y tu brazo, y lo más bonito es que el ángulo no muestra nada de ninguno, solo el brillo del sol por la ventana, pero el sentimiento de la foto ahí está, un reencuentro muy lindo y con mucha calma…<br><br>
+
+Dicen que cuando los hombres se duermen contigo, no es por aburrimiento, sino todo lo contrario, ya que cuando el sueño aparece y su mente y corazón encuentran un lugar de descanso, es porque se sienten en confianza, porque no necesitan estar alerta, no necesitan aparentar nada, y el subconsciente sabe que allí no hay peligro, solo paz…<br><br>
+
+Es por eso que capturé ese momento, porque me hizo sentir tan feliz que durmieras a mi lado, me hizo sentir serenidad ver tu cara relajada y ver cada detalle de ella que te hace tan lindo… tal vez tú no te hayas dado cuenta, pero quería llorar de felicidad cuando te vi, pero tenía miedo de que me criticaras o miraras mal.<br><br>
+
+También cuando vi el cuadro que te hice de los dos snoopys, se alegró tanto mi corazón, pero…<br><br>
+
+¿Por qué me dijiste amor en ese momento?, se te salió? o te gusta decirme así?, sea cual sea en ese momento se puso un brillo en mis ojos, como si esa palabra fuera mágica en mí, pero por lo que dijiste hace unas semanas, creo que solo se te salió… entonces solo sirvió para ilusionarme, o tal vez solo sea una tonta que se ilusiona con cualquier cosa que le digas o hagas…<br><br>
+
+Porque así es la condena de una persona enamorada y no correspondida, vivir de la ilusión ya que eso regala un pedazo de felicidad a tantas rachas de tristeza, como si de recibir una noticia buena de 10 malas se tratara…<br><br>
+
+Cuando voy a dormir veo el amanecer, pero ya no se siente como antes, ahora es más frío y nostálgico…<br><br>
+
+Dime crhis, estoy amando a una persona que ya no me ama?, estoy amando a una persona que puede seguir su vida 100% sin mí?, estoy amando a una persona que es más feliz sin mí a su lado? o solo yo creo eso?...<br><br>
+
+Si así fuera entonces no me queda nada más que observarte desde lejos, como ese dulce que anhelabas de pequeño pero nunca fue tuyo…<br><br>
+
+Pero sabes? aún queda esa chispa de fe en mí que todavía piensa que regresarás algún día, porque hay mucho de mí en ti, estoy y he estado en cada rincón, porque cada momento conectado ha dejado huellas mías en todo tu ser…<br><br>
+
+Porque sé que lo nuestro es muy especial y sin dudas tenemos mucha conexión por dentro y por fuera…<br><br>
+
+Porque nos convertimos en parte del otro…<br><br>
+
+Y cuando llegue ese día, el día que tanto espero, solo saltaré a tus brazos y no habrá poder humano que me separe de ti, porque sabré que esperé tanto por ese momento, sabré que cada lágrima y tiempo valió el esfuerzo…<br><br>
+
+Espero verte muy pronto aunque eso signifique años, pero nadie me quita la ilusión…<br><br>
+
+Y espero que algún día pienses tanto en mí que hasta me sueñes, al menos solo una vez, al menos eso merezco…<br><br>
+
+Te amo crhis, gracias por tomarte el tiempo de leerme, cuídate a donde quiera que vayas, aquí estaré siempre para ti, a todas horas, lo sabes…<br><br>
+
+Te mando un beso en tu frente, que es mi lugar favorito al besarte, ya que siempre posas tu frente en mi pecho y justo conecta tu mente con mi corazón…<br><br>
+
+Y es el momento donde puedo oler tu cabello, esos chinitos que me encantan y que te hacen especial…<br><br>
+
+Por favor no dejes que nadie más ocupe nuestro lugar de dudu y bubu…<br><br>
+
+Siempre estás presente en mí y en mis planes…<br><br>
+
+Hasta luego, mi corazón.
+</p>
+
+</div>
+
+<script>
+function check(){
+  const password = "13122007";
+  const input = document.getElementById("pass").value;
+
+  if(input === password){
+    document.getElementById("lock").style.display = "none";
+    document.getElementById("carta").style.display = "block";
+  } else {
+    alert("Contraseña incorrecta");
+  }
+}
+</script>
+
+</body>
+</html>
